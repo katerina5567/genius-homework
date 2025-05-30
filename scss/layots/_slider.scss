@@ -1,0 +1,35 @@
+ .slider-container {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .slider-content {
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+ }
+ .slider-arrow {
+     width: 44px;
+     height: 44px;
+     background-color: white;
+     border: 0.77px solid #002F65;
+     color: #002F65;
+     font-size: 24px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: background-color 0.3s ease, color 0.3s ease;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .slider-arrow:hover {
+     background-color: #007bff;
+     color: white;
+ }

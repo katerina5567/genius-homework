@@ -1,0 +1,49 @@
+@import "./utils/base.scss";
+@import "./utils/_mixins";
+@import "./utils/_accent";
+@import "./utils/_media";
+
+@import "./components/_button";
+@import "./components/_links";
+@import "./components/_footer";
+
+@import "./layots/_hero";
+@import "./layots/_header";
+@import "./layots/_tradishion";
+@import "./layots/_form-box";
+@import "./layots/_advent";
+@import "./layots/_modal";
+@import "./layots/_proceduri";
+@import "./layots/_beaty";
+@import "./layots/_img";
+@import "./layots/_slider";
+@import "./layots/_adress";
+@import "./layots/_star";
+@import "./layots/_contact";
+@import "./layots/_info";
+@import "./layots/_section";
+@import "./layots/_arrow";
+@import "./layots/_policy";
+@import "./layots/_conteiner";
+@import "./layots/mobil-menu";
+
+
+@keyframes spin-scale {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.2);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+ .element {
+     font-size: 14px;
+     padding: 12px;
+ }
+

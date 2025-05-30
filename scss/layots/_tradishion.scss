@@ -1,0 +1,19 @@
+.tradishion__container {
+    display: flex;
+    gap: 32px;
+}
+
+.tradishion__content {
+    flex-basis: calc(60% - 28px);
+}
+
+.tradishion__content {
+    max-width: 709px;
+}
+
+.tradishion__title {
+    margin-bottom: 40px;
+    color: rgba(1, 28, 68, 1);
+    font-family: Play, sans-serif;
+    font-size: 64px;
+}

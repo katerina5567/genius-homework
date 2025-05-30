@@ -1,0 +1,41 @@
+ ::after {
+     box-sizing: border-box;
+ }
+
+ ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+ }
+
+ h1 {
+     color: rgba(43, 127, 255, 1);
+     padding: 16px;
+     margin-bottom: -40px;
+     line-height: 5px;
+     margin-top: 40px;
+ }
+
+ body {
+     color: rgba(1, 28, 68, 1);
+     font-size: 22px;
+     font-weight: 400;
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
+ }
+ 
+
+ h2,
+ h3,
+ h4,
+ h5 {
+     margin-top: 0%;
+ }
+
+ a,
+ button,
+ input,
+ textarea,
+ select {
+     transition: all 0.2s ease-in-out;
+ }

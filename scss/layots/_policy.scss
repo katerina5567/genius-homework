@@ -1,0 +1,22 @@
+ .policy-text {
+     font-size: 12px;
+     margin-top: 16px;
+     color: rgba(255, 255, 255, 0.6);
+ }
+
+ .policy-text a {
+     color: rgba(43, 127, 255, 1);
+     text-decoration: underline;
+ }
+
+ .our-proc-wrapper {
+     position: relative;
+
+     align-items: center;
+ }
+
+ .our-proc-list {
+     display: flex;
+     overflow: hidden;
+     scroll-behavior: smooth;
+ }

@@ -1,0 +1,158 @@
+.footer {
+    background-color: #011F4A;
+    background-image: url('./imeges/background (1).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    padding: 56px 0;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 80px;
+    font-size: 16px;
+}
+
+.footer__nav {
+    display: flex;
+    font-size: 16px;
+    gap: 188px;
+}
+
+
+.footer__logo a {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #2B7FFF;
+    text-decoration: none;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.footer__menu .link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer__address {
+    display: flex;
+    font-style: normal;
+    gap: 188px;
+}
+
+.footer__foto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.address__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.address__list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social__icons {
+    display: flex;
+    gap: 16px;
+}
+
+.social__icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer__info {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.privacy__policy {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer__image-container {
+    position: absolute;
+    bottom: -58px;
+    right: -120px;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: none;
+}
+
+.footer__image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+/* Адаптивні класи можна залишити або уточнити як елементи блоку footer */
+@media (max-width: 768px) {
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer__address {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer__photo {
+        align-items: center;
+    }
+
+    .footer__social-icons {
+        justify-content: center;
+    }
+
+    .footer__info {
+        align-items: center;
+    }
+
+    .footer__image-container {
+        display: none;
+    }
+}

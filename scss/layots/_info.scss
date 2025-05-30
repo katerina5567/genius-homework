@@ -1,0 +1,21 @@
+.info-icon {
+    fill: #011c44;
+    transition: fill 0.2s;
+
+}
+
+.info-icon:hover {
+    fill: #2b7fff;
+}
+
+.info-icon:active {
+    fill: #ffd700;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+}

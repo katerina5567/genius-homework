@@ -1,0 +1,49 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 32px 0;
+    background: #ffffff40;
+    z-index: 1;
+    &__container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+    
+        &__menu {
+            display: flex;
+            flex-grow: 1;
+            gap: 56px;
+            justify-content: center;
+            padding: 12px 0;
+        }
+    
+        &__nav {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            gap: 40px;
+        }
+}
+
+
+
+.header-foto {
+    margin-right: 32px;
+}
+
+.header-item {
+    margin-right: 56px;
+}
+
+.header-social {
+    display: flex;
+}
+
+.header-info {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}

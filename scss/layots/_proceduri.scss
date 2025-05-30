@@ -1,0 +1,81 @@
+.proceduri-section {
+    height: 456px;
+    background-image: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%,
+            #011C44 101.39%);
+    pointer-events: none;
+    align-items: center;
+}
+
+.proceduri1 {
+    background: linear-gradient(180.05deg,
+            rgba(1, 28, 68, 0) 48.53%,
+            rgba(1, 28, 68, 0.725825) 84.61%,
+            #011C44 101.39%),
+}
+
+.proceduri-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.proceduri-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.proceduri-section img:hover {
+    transform: scale(1.05);
+}
+
+.proceduri-section p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.our-proc-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.our-proc-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 456px;
+    width: 344px;
+    border-radius: 4px 120px 4px 120px;
+    transition: trnasform 0.2s;
+
+}
+
+.img1 {
+    background:
+        linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%),
+        url("../imeges/Mask group.png");
+}
+
+.img2 {
+    background:
+        linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%),
+        url("../imeges/Mask group (1).png");
+}
+
+.img3 {
+    background:
+        linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%),
+        url("../imeges/Mask group (2).png");
+}
+.white-desc {
+    display: flex;
+    align-self: center;
+    max-width: 152px;
+    color: white;
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+}
